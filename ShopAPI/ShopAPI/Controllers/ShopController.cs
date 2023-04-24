@@ -43,7 +43,7 @@ namespace ShopAPI.Controllers
         }
 
         //edycja
-        [HttpPost("Edit")]
+        [HttpPut("Edit")]
         public JsonResult Edit(Product product)
         {
             if (product.id == 0)
@@ -96,7 +96,7 @@ namespace ShopAPI.Controllers
         }
 
         //usuwanie z bazy jednego elementu
-        [HttpPost("Delete")]
+        [HttpDelete("Delete")]
         public JsonResult Delete(int id)
         {
             var product = _context.Products.Find(id);
