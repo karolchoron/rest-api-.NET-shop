@@ -1,5 +1,4 @@
-# rest_api_shop
-ASP.NET Core C# Rest Api - shop
+# ASP.NET Core C# Rest Api - shop
 
 
 The project presents a simple REST API made in ASP.NET Core technology, using the EntityFramework ORM, <br />
