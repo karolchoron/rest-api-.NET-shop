@@ -1,6 +1,6 @@
 # 🛍️ ASP.NET Core C# Rest API - Shop
 
-### PL version bellow
+## EN 
 
 The project presents a simple REST API made in **ASP.NET Core** technology, using the **EntityFramework ORM**,<br />
 used to manage products in the store. <br />
